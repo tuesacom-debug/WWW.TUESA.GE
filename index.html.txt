@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUESA - პროდუქტები</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f9f9f9; padding: 20px; }
+        .product-card { background: white; border-radius: 8px; padding: 15px; display: inline-block; width: 250px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .product-card img { width: 100%; height: 200px; object-fit: cover; border-radius: 4px; }
+        .price { color: #e44d26; font-weight: bold; font-size: 18px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <h1>მოგესალმებით TUESA-ზე!</h1>
+    <p>ჩვენი პროდუქტები:</p>
+
+    <!-- პირველი პროდუქტი -->
+    <div class="product-card">
+        <img src="images/product1.jpg" alt="პროდუქტი 1">
+        <h3>პროდუქტის სახელი</h3>
+        <p>აქ იქნება მოკლე აღწერილობა შენი პროდუქტის შესახებ.</p>
+        <div class="price">50 ლარი</div>
+    </div>
+
+</body>
+</html>
